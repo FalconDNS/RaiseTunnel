@@ -29,6 +29,7 @@ Run the following command on your Linux terminal (requires `root` privileges) to
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/FalconDNS/RaiseTunnel/main/install.sh)
+```
 
 Note: Make sure curl is installed on your system (apt install curl or yum install curl).
 
