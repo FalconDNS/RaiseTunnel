@@ -8,7 +8,7 @@
 [![Language](https://img.shields.io/badge/Script-Bash-4EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/FalconDNS/RaiseTunnel)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-*A powerful, interactive, and persistent command-line tool to establish GRE tunnels between servers in seconds.*
+*A powerful, interactive, and persistent command-line tool to establish  tunnels between servers in seconds.*
 
 ---
 </div>
