@@ -48,9 +48,7 @@ raisetunnel
 
     🗑️ Remove RaiseTunnel: Safely stops and completely removes all tunnel configurations.
 
-📸 Preview
 
-(Tip: You can add an animated GIF of your terminal here using tools like Terminalizer or vhs to make it look even more professional!)
 
     🟩 Dynamic Location: Choose your server location dynamically.
 
@@ -61,8 +59,6 @@ raisetunnel
     🟥 One-Click Removal: Safely remove the tunnel with a single click.
 
 🧠 How it Works under the hood?
-
-RaiseTunnel uses native Linux iproute2 (ip tunnel and ip link) to create a lightweight GRE (Generic Routing Encapsulation) tunnel.
 
 Instead of saving settings in volatile memory, it dynamically generates a /etc/systemd/system/raisetunnel.service file to ensure 100% persistence across server reboots.
 📜 License
