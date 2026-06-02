@@ -28,4 +28,4 @@
 Run the following command on your Linux terminal (requires `root` privileges) to download and install RaiseTunnel globally:
 
 ```bash
-bash <(curl -Ls [https://raw.githubusercontent.com/FalconDNS/RaiseTunnel/main/install.sh])
+bash <(curl -Ls https://raw.githubusercontent.com/FalconDNS/RaiseTunnel/main/install.sh)
