@@ -29,3 +29,33 @@ Run the following command on your Linux terminal (requires `root` privileges) to
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/FalconDNS/RaiseTunnel/main/install.sh)
+
+Note: Make sure curl is installed on your system (apt install curl or yum install curl).
+
+🕹️ Usage
+
+Once installed, you don't need to navigate to any specific directory. Just type the following command in your terminal:
+Bash
+
+raisetunnel
+
+Main Menu Options:
+
+    Configure and Install RaiseTunnel: Prompts for IPs and sets up a persistent systemd service.
+
+    Check Tunnel Status: Displays real-time kernel interface status and systemd logs.
+
+    Remove RaiseTunnel: Safely stops and completely removes all tunnel configurations.
+
+📸 Preview
+
+(Tip: You can add an animated GIF of your terminal here using tools like Terminalizer or vhs to make it look even more professional!)
+Interactive Menu	Real-time Status Check
+🟩 Choose your server location dynamically	🟦 Check systemd and IP interface directly
+🟨 Setup tunnel IPs with smart defaults	🟥 Safely remove with one click
+⚙️ How it Works under the hood?
+
+RaiseTunnel uses native Linux iproute2 (ip tunnel and ip link) to create a lightweight GRE (Generic Routing Encapsulation) tunnel. Instead of saving settings in volatile memory, it dynamically generates a /etc/systemd/system/raisetunnel.service file to ensure 100% persistence across reboots.
+📜 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
